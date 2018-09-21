@@ -7,7 +7,7 @@
 		<title>reveal.js</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/moon.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,8 +24,117 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h1>
+						Hackathon 2018<br/>
+						CapDB Project
+					</h1>
+				</section>
+                <section>
+                    <section>
+                        <h2>Why?</h2>
+                    </section>
+                    <section>
+                        <p class="fragment">"Architect, what does <span>X</span> table/column do in the DB?"</p>
+                        <p class="fragment">"Developer, what is the datatype of <span>X</span> column?"</p>
+                        <p class="fragment">"DBA, can we add <span>X</span> to the DB?"</p>
+                    </section>
+                    <section>
+                        <h2>Problem</h2>
+                        We often can't answer those questions without hopping into the database with our laptop which may not be with us at that moment.
+                    </section>
+                </section>
+                <section>
+                    <h2>Current Solution</h2>
+                    Screencast of SQL*Plus
+                </section>
+                <section>
+                    What if we could answer those questions
+                    <span class="fragment" style="color:white">using any device</span>
+                    <span class="fragment">,</span>
+                    <span class="fragment" style="color:white">wherever we want</span>
+                    <span class="fragment">(like in meetings or during development),</span>
+                    <span class="fragment" style="color:white">with mininal input?</span>
+                </section>
+                <section>
+                    <h2>DOUMI</h2>
+                    <h4 class="fragment">Korean word for "Helper"</h4>
+                    <h4 class="fragment">(Thank you, Seung!)</h4>
+                </section>
+                <section>
+                    <h2>DOUMI Benefits</h2>
+                    <ul>
+                        <li class="fragment">Fuzzy search for DB objects</li>
+                        <li class="fragment">Displays table structures</li>
+                        <li class="fragment">Pulls sample data</li>
+                        <li class="fragment">Provides DB Object Documentation</li>
+                        <li class="fragment">Runs on laptops and smartphones</li>
+                    </ul>
+                </section>
+                <section>
+                    <section>
+                        <h2>Mockups</h2>
+                    </section>
+                    <section>
+                        <img src="screenshot1.png"/>
+                    </section>
+                    <section>
+                        <img src="screenshot2.png"/>
+                    </section>
+                    <section>
+                        <img src="screenshot3.png"/>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h2>Architecture</h2>
+                    </section>
+                    <section>
+                        <img src="architecture.jpg"/>
+                    </section>
+                    <section>
+                        <span class="fragment">Ionic - Hybrid framework that allows us to target desktop, android, and iOs!</span>
+                        <span class="fragment" style="color:white">"Use any device"<br/><br/></span>
+
+                        <span class="fragment">Angular - </span>
+                        <span class="fragment" style="color:white">"Minimize input"</span>
+                        <span class="fragment">using components<br/><br/></span>
+
+                        <span class="fragment">API Abstraction - </span>
+                        <span class="fragment" style="color:white">"Use any where"</span>
+                        <span class="fragment">over HTTPS<br/></span>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h2>Methodology</h2>
+                    </section>
+                    <section>
+                        <h2>Design and Planning</h2>
+                        <img src="project-plan.png"/>
+                    </section>
+                    <section>
+                        <h2>Install and Learn Tools</h2>
+                        Ionic, angular, Node, npm, Ruby, Sinatra, Sequel
+                    </section>
+                    <section>
+                        <h2>Build MVP Style</h2>
+                    </section>
+                </section>
+                <section>
+                    <h2>How far did we get?</h2>
+                    <ul>
+                        <li class="fragment"><span style="color:green;">Complete</span> - Fuzzy search for DB objects</li>
+                        <li class="fragment"><span style="color:green;">Complete</span> - Displays table structures</li>
+                        <li class="fragment"><span style="color:yellow;">Partial Completion</span> - Pulls sample data</li>
+                        <li class="fragment"><span style="color:yellow;">Partial Completion</span> - Provides DB Object Documentation</li>
+                        <li class="fragment"><span style="color:yellow;">Partial Completion</span> - Runs on laptops and smartphones</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Demo</h2>
+                </section>
+
 			</div>
 		</div>
 
